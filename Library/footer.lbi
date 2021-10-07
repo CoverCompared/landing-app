@@ -1,0 +1,66 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<footer class="footer_bg">
+<div class="container">
+
+<div class="subscribe_sect mt20">
+<div class="subscribe_hed">Subscribe to Our Newsletter</div>
+<div class="nwsltr_input mt20">
+<input name="" type="text" placeholder="Your email address">
+<input name="" type="button" class="subscribe_btn" value="Subscribe"  onClick="window.open('thankyou3.html','_parent');">
+
+</div>
+
+</div>
+
+<div class="ft_link"> 
+<a href="../index.html" title="Home">Home   </a>       
+<a href="../index.html#network" title="Polkacover Network">Polkacover Network </a>         
+<a href="../index.html#about-token" title="About The Token">About The Token</a>          
+<a href="../index.html#roadmap" title="Our Roadmap">Our Roadmap </a>         
+<a href="../index.html#team" title="Our Core Team">Our Core Team </a>             
+<a href="../index.html#project-plan" title="Project Plan">Project Plan  </a>                
+<a href="../pdf/Whitepaper.pdf" title="Whitepaper">Whitepaper</a></div>
+
+
+<div class="copy poppins mt20"> © 2020 polkacover.com. All rights reserved.
+</div>
+
+</div>
+<!--copyright-->
+<script type="text/javascript"> //<![CDATA[
+  var tlJsHost = ((window.location.protocol == "https:") ? "https://secure.trust-provider.com/" : "http://www.trustlogo.com/");
+  document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/trustlogo.js' type='text/javascript'%3E%3C/script%3E"));
+//]]></script>
+<script language="JavaScript" type="text/javascript">
+  TrustLogo("https://www.positivessl.com/images/seals/positivessl_trust_seal_md_167x42.png", "POSDV", "none");
+</script>
+</footer>
+<div class="footer_btm">
+<div class=" d-flex flex-row">
+<!-- <div class="ft_L_col">
+
+<div class="login_cre">  <a href="#"><i class="fas fa-circle"></i> Sign In</a>
+  <a href="#"><i class="fas fa-circle"></i> Sign Up</a>
+</div>
+</div>-->
+
+<div class="ft_R_col ml-auto">
+<div class="footer-social-icons ">
+<ul class="social-icons list-unstyled">
+
+<li><a href="https://twitter.com/polkacover" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a></li>
+<li><a href="https://www.linkedin.com/company/polkacover/about/" title="Linked In" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+<li><a href="https://polkacover.medium.com/" title="Medium" target="_blank"><i class="fab fa-medium-m"></i></a></li>
+<li><a href="javascript:void(0)" title="Github" target="_blank"><i class="fab fa-github-alt"></i></a></li>
+<!--<li><a href="javascript:void(0)" title="Bitcoin" target="_blank"><i class="fab fa-bitcoin"></i></a></li>-->
+
+
+</ul>
+</div>
+
+<div class="ft_circle_lnk">
+<a href="https://t.me/joinchat/Sc_DyFJogkbsi2m8ntWXtA" target="_blank" title="Telegram"><i class="fas fa-paper-plane"></i></a>
+<a href="../join-privatesale.html"><i class="fas fa-envelope"></i></a>
+</div>
+</div>
+</div></div>

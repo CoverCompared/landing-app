@@ -1,0 +1,680 @@
+@font-face {
+  font-family: poppinsBold;
+  src: url("./fonts/poppins/Poppins-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: poppinsBlack;
+  src: url("./fonts/poppins/Poppins-Black.otf") format("opentype");
+}
+@font-face {
+  font-family: poppinsSemiBold;
+  src: url("./fonts/poppins/Poppins-SemiBold.otf") format("opentype");
+}
+@font-face {
+  font-family: poppinsMedium;
+  src: url("./fonts/poppins/Poppins-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: halveticaNeuMedium;
+  src: url("./fonts/HelveticaNeue\ Medium.ttf") format("opentype");
+}
+@font-face {
+  font-family: halveticaNeuLight;
+  src: url("./fonts/HelveticaNeue\ Light.ttf") format("opentype");
+}
+
+.staking-top-container{
+  position: relative;
+  min-height: 90vh;
+  width: 100%;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+.cirlce{
+  position: absolute;
+  border-radius: 50% !important;
+  background: #59E7A1;
+  box-shadow: 0 6px 41px rgba(0, 0, 0, 0.24);
+  z-index: 0;
+}
+.circle-1{
+  height: 64px;
+  width: 64px;
+  background: #266DB2;
+  left: 90px;
+  animation: circle-1 4s linear infinite;
+}
+.circle-2{
+  height: 130px;
+  width: 130px;
+  left: 200px;
+  animation: circle-1 8s linear infinite;
+}
+.circle-3{
+  height: 82px;
+  width: 82px;
+  left: 480px;
+  animation: circle-1 6s linear infinite;
+}
+.circle-4{
+  height: 100px;
+  width: 100px;
+  right: 300px;
+  animation: circle-1 5s linear infinite;
+}
+.circle-5{
+  height: 80px;
+  width: 80px;
+  right: 160px;
+  animation: circle-1 4.5s linear infinite;
+}
+.circle-6{
+  height: 96px;
+  width: 96px;
+  right: 60px;
+  background: #266DB2;
+  animation: circle-1 5.8s linear infinite;
+}
+
+@keyframes circle-1{
+  from{
+    bottom: -100%;
+    transform: translateY(-5%);
+  }
+  to{
+    bottom: 100%;
+    transform: translateY( 0%);
+  }
+}
+
+
+
+.staking-top-section-title{
+  font-size: 44px;
+  font-family: poppinsBold;
+  color: #256CB2;
+  text-shadow: rgba(0, 0, 0, 0.16);
+  z-index: 100;
+  margin-top: 18px;
+  margin-bottom: 25px;
+}
+.staking-top-section-logo{
+  min-height: 82px;
+  -webkit-animation:spin 4s linear infinite;
+  -moz-animation:spin 4s linear infinite;
+  animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+.staking-top-section-title > .green{
+  color: #009739;
+}
+.staking-top-section-title > .dark-blue{
+  color: #003660;
+}
+.top-section-subtitle{
+  font-size: 22px;
+  font-family: poppinsMedium;
+  color: #1E5992;
+  z-index: 1;
+}
+.top-partnership-title{
+  font-family: poppinsSemiBold;
+  color: #009739;
+  font-size: 24px;
+  margin-top: 16px;
+  margin-bottom: 6px;
+  z-index: 1;
+}
+.ferrum-logo{
+  max-height: 100px;
+}
+
+
+.staking-container{
+  height: 820px;
+  width: 100%;
+  background-image: url(./../images/staking-bg-3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 214px 60px 40px 104px; 
+}
+.small-title{
+  font-size: 22px;
+  font-family: poppinsMedium;
+  color: #1E5992;
+  margin-bottom: 12px;
+  z-index: 1;
+}
+.common-heading{
+  font-size: 38px;
+  font-family: poppinsBold;
+  color: #256CB2;
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+.staking-descreption{
+  font-size: 22px;
+  font-family: poppinsSemiBold;
+  color: #003660;
+  margin-top: 46px;
+  max-width: 540px;
+}
+.staking-statement{
+  height: auto;
+  width: fit-content;
+  padding: 10px 16px 10px 24px;
+  color: #256CB2;
+  font-size: 22px;
+  font-family: poppinsSemiBold;
+  background: white;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+.staking-machine-img{
+  max-height: 380px;
+  margin: 20px 0 20px 20px;
+}
+
+
+
+
+.plans-section{
+  width: auto;
+  padding-right: 50px;
+}
+.plans-bg{
+  background-image: url(./../images/plans-bg-2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 640px;
+  padding: 96px 80px 0 110px;
+}
+.plans-container{
+  margin-top: 80px;
+  max-width: 1125px;
+}
+.countdown-bg-container{
+  position: absolute;
+  top: 0;
+  height: 100%;
+  max-width: 1125px;
+  width: 100%;
+  background: rgba(133, 128, 128, 0.15);
+  border-radius: 16px;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+}
+.countdown-box{
+  height: 86px;
+  width: 86px;
+  background: rgba(0, 0, 0, 0.44);
+  color: white;
+  font-size: 38px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: halveticaNeuMedium;
+}
+.countdown-subtitle{
+  font-size: 24px;
+  color: white;
+  font-family: halveticaNeuLight;
+  margin-top: 14px;
+}
+.colon{
+  font-size: 40px;
+  color: white;
+  height: 86px;
+  margin: 0 12px;
+  display: flex;
+  align-items: start;
+  margin-top: 18px;
+}
+.countdown-title{
+  font-size: 44px;
+  font-family: poppinsBold;
+  color: white;
+  margin-bottom: 40px;
+}
+.plans-box{
+  position: relative;
+  max-height: 484px;
+  height: 100%;
+  max-width: 343px;
+  width: 100%;
+  background: #59E7A2;
+  border-radius: 16px;
+  padding: 22px 20px 30px 20px;
+  z-index: 0;
+  margin-right: 48px;
+  box-shadow: 0 3px 50px rgba(0, 0, 0, 0.16);
+}
+.plans-box:last-child{
+  margin-right: 0;
+}
+.box-label{
+  position: absolute;
+  top: 28px;
+  right: -10px;
+  height: 42px;
+  width: 120px;
+  z-index: 100;
+  background-size: auto;
+  background-repeat: no-repeat;
+  font-size: "Open Sans";
+}
+.box-label-title{
+  font-size: 16px;
+  color: #59E7A2;
+  font-family: poppinsBold;
+}
+.plans-title{
+  color: #1E5992;
+}
+.plans-title > .big{
+  font-size: 22px;
+  font-family: poppinsBold;
+}
+.plans-title > .small {
+  font-size: 16px;
+  font-family: poppinsMedium;
+}
+.annual-percentage{
+  font-size: 26px;
+  font-family: poppinsBold;
+  color: #1E5992;
+  margin-right: 8px;
+}
+.box-maturity-text{
+  font-size: 14px;
+  font-family: poppinsMedium;
+  color: #666666;
+  line-height: 1.2;
+}
+.pool-size-title{
+  font-size: 22px;
+  font-family: poppinsMedium;
+  color: white;
+  margin-top: 13px;
+  margin-bottom: 16px;
+  letter-spacing: 1px;
+}
+.cvr-amount{
+  font-size: 32px;
+  font-family: poppinsMedium;
+  color: #000000;
+  margin-bottom: 30px;
+}
+.cvr-amount > span{
+  color: white;
+  font-size: 18px;
+  font-family: poppinsBlack;
+}
+a{
+  text-decoration: none !important; 
+  
+}
+.percentage-progress-bar{
+  position: relative;
+  width: 100%;
+  height: 34px;
+  background: linear-gradient(to right, rgba(39, 81, 130, 0), rgba(29, 73, 121, 1));
+  border-radius: 20px;
+  padding-right: 7px;
+  font-size: 16px;
+  font-family: poppinsMedium;
+  color: white;
+}
+.percentage-bar-bg{
+  width: 100%;
+  height: 34px;
+  background: rgba(184, 245, 212, 0.4);
+  border-radius: 20px;
+}
+.gold-bar-width{
+  width: 0%;
+}
+.percentage-progress-bar > .polkacover-img-container{
+  height: 26px;
+  width: 26px;
+  background: white;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+.box-white-circle{
+  height: 54px;
+  width: 54px;
+  background: white;
+  position: absolute;
+  right: 44px;
+  top: 160px;
+  border-radius: 50%;
+  box-shadow: 0 6px 41px rgba(0, 0, 0, 0.11);
+}
+.box-blue-circle{
+  height: 22px;
+  width: 22px;
+  background: #266DB2;
+  position: absolute;
+  right: 100px;
+  top: 120px;
+  border-radius: 50%;
+  box-shadow: 0 6px 41px rgba(0, 0, 0, 0.11);
+}
+.second-box-blue-circle{
+  right: 30px;
+}
+.plan-link{
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+.bottom-container{
+  min-height: 150vh;
+  width: 100%;
+  background-image: url(./../images/staking-bottom-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 190px 140px;
+}
+.bottom-section-box-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 64px;
+  margin-top: 70px;
+}
+.bottom-section-box{
+  min-height: 240px;
+  background: white;
+  box-shadow: 0 3px 50px rgba(0, 0, 0, 0.16);
+  border-radius: 16px;
+  font-size: 22px;
+  color: #1E5992;
+  font-family: poppinsBold;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s linear;
+}
+.bottom-section-box:hover{
+  background: #59E7A2;
+  cursor: pointer;
+}
+.bottom-section-box > .descreption{
+  font-size: 16px;
+  font-family: poppinsMedium;
+  color: #666666;
+  margin-top: 16px;
+}
+.box-tap-img{
+  max-height: 100px;
+}
+.security{
+  max-height: 80px;
+}
+.fast-support-img{
+  max-height: 80px;
+}
+.transparency-img{
+  max-height: 74px;
+}
+.gift-img{
+  max-height: 64px;
+}
+.reward-img{
+  max-height: 96px;
+}
+.bottom-section-circle-1{
+  position: absolute;
+  left: -15px;
+  top: 400px;
+  height: 60px;
+  width: 60px;
+  background: #59E7A1;
+  border-radius: 50%;
+  box-shadow: 0 6px 41px rgba(0, 0, 0, 0.24);
+}
+.bottom-section-circle-2{
+  position: absolute;
+  left: 70px;
+  top: 240px;
+  height: 36px;
+  width: 36px;
+  background: #266DB2;
+  border-radius: 50%;
+  box-shadow: 0 6px 41px rgba(0, 0, 0, 0.24);
+}
+.bottom-section-box-circle-3{
+  position: absolute;
+  right: 100px;
+  top: 100px;
+  left: auto;
+}
+.bottom-section-box-circle-4{
+  height: 90px;
+  width: 90px;
+  position: absolute;
+  right: 0px;
+  top: 250px;
+  background: #59E7A1;
+  border-radius: 50%;
+  box-shadow: 0 6px 41px rgba(0, 0, 0, 0.24);
+}
+.bottom-section-img-box{
+  height: 115px;
+  width: 120px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.bottom-line-container{
+  height: 48px;
+  width: 100%;
+  background: #256CB1;
+  color: white;
+  font-size: 18px;
+  font-family: poppinsSemiBold;
+  padding: 0 90px;
+}
+
+
+
+
+
+@media(max-width : 786px){
+  .pc{
+    padding: 0 24px !important;
+  }
+  .staking-top-section-logo{
+    min-height: 96px;
+    margin-top: 40px;
+    z-index: 50;
+  }
+  .staking-top-section-title{
+    font-size: 28px;
+    font-family: poppinsBlack;
+  }
+  .staking-top-section-logo{
+    min-height: 96px;
+  }
+  .staking-top-section-title > .green{
+    color: #009739;
+  }
+  .staking-top-section-title > .dark-blue{
+    color: #003660;
+  }
+  .top-section-subtitle{
+    font-size: 18px;
+  }
+  .top-partnership-title{
+    font-size: 19px;
+    margin-top: 16px;
+    margin-bottom: 6px;
+  }
+  .staking-container{
+    height: max-content;
+    background-size: cover;
+    background-position: center center;
+    padding: 40px 24px !important; 
+  }
+  .small-title{
+    font-size: 18px;
+  }
+  .common-heading{
+    font-size: 28px;
+    color: #256CB2 !important;
+  }
+  .staking-descreption{
+    font-size: 18px;
+    margin-top: 40px;
+  }
+  .staking-statement{
+    font-size: 19px;
+    padding: 10px;
+  }
+  .staking-machine-img{
+    margin-top: 46px;
+    max-height: 200px;
+  }
+  .ferrum-logo{
+    max-height: 80px;
+    z-index: 100;
+  }
+  .bottom-line-container{
+    font-size: 14px;
+    padding: 20px;
+  }
+  .plans-section{
+    width: 100%;
+    padding-right: 0;
+  }
+  .plans-bg{
+    background-image: none;
+    min-height: 640px;
+    padding: 0;
+  }
+  .plans-container{
+    margin-top: 90px;
+    max-width: 1125px;
+  }
+  .plans-box{
+    max-width: 100%;
+    margin-top: 54px;
+  }
+  .countdown-box{
+    height: 48px;
+    width: 48px;
+    font-size: 22px;
+  }
+  .colon{
+    margin: 0 6px 10px 6px;
+    font-size: 40px;
+  }
+  .countdown-subtitle{
+    font-size: 18px;
+  }
+  .bottom-container{
+    padding: 60px 24px;
+  }
+  .bottom-section-box-container{
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+  }
+
+
+  .circle-1{
+    height: 44px;
+    width: 44px;
+  }
+  .circle-3{
+    height: 60px;
+    width: 60px;
+  }
+  .circle-4{
+    height: 74px;
+    width: 74px;
+    left: -20px;
+  }
+  .circle-5{
+    height: 66px;
+    width: 66px;
+  }
+  .circle-6{
+    height: 70px;
+    width: 70px;
+  }
+  .staking-nav-item{
+    letter-spacing: 1px;
+    margin-right: 0px;
+  }
+}
+
+@media(max-width : 1600px){
+  .page-pc{
+    min-width: 100%;
+  }
+}
+
+@media(min-width: 1600px){
+  .bottom-container{
+    min-height: 100vh;
+  }
+  .page-body{
+    max-width: 1600px !important;
+  }
+  .plans-bg {
+    padding: 96px 80px 0 160px;
+  }
+  .page-pc{
+    min-width: 1600px !important;
+  }
+  .staking-top-section-title{
+    font-size: 56px;
+    margin-top: 60px;
+  }
+  .top-section-subtitle{
+    font-size: 30px;
+  }
+  .ferrum-logo{
+    max-height: 130px;
+  }
+  .staking-container{
+    padding: 200px 60px 40px 150px; 
+  }
+  .common-heading{
+    font-size: 42px;
+  }
+  .small-title{
+    font-size: 28px;
+  }
+}
+
+
+/* @media(max-width : 1024px){
+  .bottom-container{
+    min-height: max-content;
+  }
+  .bottom-section-box-container{
+    grid-template-columns: repeat(2, 1fr);
+  }
+} */
