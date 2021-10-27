@@ -46,61 +46,61 @@ $(window).load(function(e) {
 
 
 
-    $('.forgot').fancybox({
-        iframe: {
-            css: {
-                width: '400'
-            }
-        }
-    });
+    // $('.forgot').fancybox({
+    //     iframe: {
+    //         css: {
+    //             width: '400'
+    //         }
+    //     }
+    // });
 
-    $('.refer').fancybox({
-        iframe: {
-            css: {
-                width: '410'
-            }
-        }
-    });
+    // $('.refer').fancybox({
+    //     iframe: {
+    //         css: {
+    //             width: '410'
+    //         }
+    //     }
+    // });
 
-    $('.newsltr').fancybox({
-        iframe: {
-            css: {
-                width: '400'
-            }
-        }
-    });
+    // $('.newsltr').fancybox({
+    //     iframe: {
+    //         css: {
+    //             width: '400'
+    //         }
+    //     }
+    // });
 
-    $('.address').fancybox({
-        iframe: {
-            css: {
-                width: '500'
-            }
-        }
-    });
+    // $('.address').fancybox({
+    //     iframe: {
+    //         css: {
+    //             width: '500'
+    //         }
+    //     }
+    // });
 
-    $('.invoice1').fancybox({
-        iframe: {
-            css: {
-                width: '900'
-            }
-        }
-    });
+    // $('.invoice1').fancybox({
+    //     iframe: {
+    //         css: {
+    //             width: '900'
+    //         }
+    //     }
+    // });
 
-    $('.enq').fancybox({
-        iframe: {
-            css: {
-                width: '400'
-            }
-        }
-    });
+    // $('.enq').fancybox({
+    //     iframe: {
+    //         css: {
+    //             width: '400'
+    //         }
+    //     }
+    // });
 
-    $('.video_pop').fancybox({
-        iframe: {
-            css: {
-                width: '690'
-            }
-        }
-    });
+    // $('.video_pop').fancybox({
+    //     iframe: {
+    //         css: {
+    //             width: '690'
+    //         }
+    //     }
+    // });
 
 
 
