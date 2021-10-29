@@ -1694,8 +1694,11 @@
             <div class="subscribe_sect mt20">
                <div class="subscribe_hed">Subscribe to Our Newsletter</div>
                <div class="nwsltr_input mt20">
-                  <input name="" type="text" placeholder="Your email address">
-                  <input name="" type="button" class="subscribe_btn" value="Subscribe"  onClick="window.open('thankyou3.html','_parent');">
+                                 <form name="subscribe1" onsubmit="subscribe(event, this)" method="post">
+                  <input name="email" type="email" required placeholder="Your email address">
+                  <input name="Submit" type="submit" class="subscribe_btn" value="Subscribe">
+               </form>
+
                </div>
             </div>
             <div class="ft_link"> 

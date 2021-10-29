@@ -77,10 +77,10 @@ if ($_POST['Submit'] == "Subscribe") {
 	 <tr><td>Dear " . $_POST['email'] . " ,<br/><br/></td></tr>
 	 <tr><td>Thank you for registering your interest,, We will get back to you in 24-48 hours. <br/><br/><br />Regards,<br>
 	 Team " . WEBSITE_NAME . ",</strong><br>
-<br>
-Email ID : ksadani@gmail.com<br>
-</td></tr>
-	</table>";
+	<br>
+	Email ID : ksadani@gmail.com<br>
+	</td></tr>
+		</table>";
 	$fromPerson = ADMIN_NAME;
 	$from_email = ADMIN_EMAIL;
 	$subject = "Enquiry @ " . WEBSITE_NAME;
@@ -117,10 +117,10 @@ Email ID : ksadani@gmail.com<br>
 	</table>";
 	//echo $mess1;
 	$response = send_email($_POST['first_name'], $email, $to_email, $subject1, $mess1);
-	if($response){
+	if ($response) {
 		header("Location:thankyou2.htm");
 		exit;
-	}else{
+	} else {
 		header("Location:thankyou2.htm?error=something-went-wrong.");
 		exit;
 	}

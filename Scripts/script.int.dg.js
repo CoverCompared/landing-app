@@ -408,3 +408,24 @@ $(window).load(function(e) {
     }
 
 });
+
+function subscribe(event, form) {
+    event.preventDefault();
+    let subscribeEmail = sessionStorage.getItem("subscribe");
+    let email = $(form).serializeArray().find(value => value.name == "email").value
+    if (subscribeEmail != email) {
+        $.ajax({
+            method: "POST",
+            url: "https://staging-covercompared.polkacover.com/api/landing-app-subscribe",
+            data: { email }
+        })
+            .done(function (data) {
+                if (data && data.success) {
+                    sessionStorage.setItem("subscribe", email);
+                    window.location.href = "thankyou2.htm";
+                }
+            });
+    }else{
+        window.location.href = "thankyou2.htm";
+    }
+}

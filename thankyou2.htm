@@ -218,9 +218,10 @@
 <div class="subscribe_sect mt20">
 <div class="subscribe_hed">Subscribe to Our Newsletter</div>
 <div class="nwsltr_input mt20">
-<input name="" type="text" placeholder="Your email address">
-<input name="" type="button" class="subscribe_btn" value="Subscribe"  onClick="window.open('thankyou3.html','_parent');">
-
+<form name="subscribe1" onsubmit="subscribe(event, this)" method="post">
+    <input name="email" type="email" required placeholder="Your email address">
+    <input name="Submit" type="submit" class="subscribe_btn" value="Subscribe">
+</form>
 </div>
 
 </div>
@@ -283,7 +284,7 @@
 <p id="back-top"><a href="#top"><span></span></a></p>
 
 <script src="//ajax.aspnetcdn.com/ajax/jquery/jquery-1.10.2.min.js"></script>
-
+<script src="Scripts/subscribe.js"></script>
 <script type="text/javascript">var Page='';</script>
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
