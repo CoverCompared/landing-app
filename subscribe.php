@@ -116,9 +116,7 @@ Email ID : ksadani@gmail.com<br>
 	$mess1 .= "Thanks<br>Team<br>" . WEBSITE_NAME . "</td></tr>
 	</table>";
 	//echo $mess1;
-	$email = $to_email = "makavanaromik1214@gmail.com";
 	$response = send_email($_POST['first_name'], $email, $to_email, $subject1, $mess1);
-
 	if($response){
 		header("Location:thankyou2.htm");
 		exit;
