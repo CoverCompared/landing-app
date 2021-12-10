@@ -50,6 +50,11 @@
   background : #5799db;
   color: #FFFFFF;
 }
+.insurance-tabs{
+  border-radius: 15px;
+  width: 228px;
+  margin: 0 12px 30px 12px;
+}
 .partner-container-bg{
   max-width: 1516px;
   width: 100%;
@@ -60,6 +65,15 @@
   margin: 0 auto;
   display: grid;
   place-items: center;
+}
+.insurance-container{
+  display: none;
+}
+.insurance-container-active{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .partner-box-grid{
   display: none;
@@ -187,6 +201,10 @@
     max-height: auto;
     width: auto;
   }
+  .insurance-tabs{
+    width: 162px;
+    margin: 0 8px 30px 8px;
+  }
 }
 
 @media(max-width : 768px){
@@ -255,5 +273,10 @@
     height: 44px;
     line-height: 16px;
     border-radius: 12px;
+  }
+  .insurance-tabs{
+    border-radius: 12px;
+    width: 132px;
+    margin: 0 4px 30px 4px;
   }
 }
