@@ -102,6 +102,9 @@
   max-width: 94%;
   width: 100%;
 }
+.p4l-partner-icon{
+  max-height: 90px;
+}
 .partner-name{
   font-family: Poppins;
   font-weight: bold;
@@ -279,4 +282,4 @@
     width: 132px;
     margin: 0 4px 30px 4px;
   }
-}
+} 
