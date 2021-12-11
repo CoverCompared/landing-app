@@ -257,6 +257,9 @@
   .partner-summary{
     font-size: 15px;
   }
+  .p4l-partner-icon{
+    max-height: 60px;
+  }
 }
 
 
@@ -281,5 +284,9 @@
     border-radius: 12px;
     width: 132px;
     margin: 0 4px 30px 4px;
+  }
+
+  .partner-name{
+    font-size: 21px;
   }
 } 
