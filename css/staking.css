@@ -158,6 +158,12 @@
   color: #256CB2;
   text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
 }
+.common-heading-subtitle{
+  font-size: 18px;
+  font-family: poppinsMedium;
+  color: #51C1C3;
+  margin-top: 4px;
+}
 .staking-descreption{
   font-size: 22px;
   font-family: poppinsSemiBold;
@@ -535,9 +541,6 @@ a{
   }
   .staking-top-section-logo{
     min-height: 96px;
-  }
-  .staking-top-section-title > .green{
-    color: #009739;
   }
   .staking-top-section-title > .dark-blue{
     color: #003660;
