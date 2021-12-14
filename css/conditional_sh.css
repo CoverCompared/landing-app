@@ -932,7 +932,7 @@ ul.top_link li div {
 	position: absolute;
 	right: 27.3%;
 	bottom: -15px;
-	z-index: 999;
+	/* z-index: 999; */
 }
 
 .peoples {
@@ -1079,7 +1079,7 @@ ul.top_link li div {
 	color: #175186;
 	font-size: 24px;
 	line-height: 36px;
-	margin-bottom: 1.5rem
+	margin-bottom: 1.5rem;
 }
 
 .mode_txt {
@@ -1132,19 +1132,26 @@ ul.top_link li div {
 	}
 }
 
-.join_btn a {
+.menifesto-btn {
 	background: #2bb673;
 	border-radius: 20px;
-	padding: 4px 20px;
+	padding: 4px 16px;
+	text-transform: uppercase;
+	width: 146px;
+	margin-right: 8px;
+	position: relative;
+	z-index: 1;
+}
+.menifesto-btn a{
 	color: #fff;
 	font-size: 13px;
-	text-transform: uppercase
 }
-
-.join_btn a:hover {
-	background: #256cb2;
-	text-decoration: none;
+.menifesto-btn:hover a{
 	color: white;
+	text-decoration: none;
+}
+.menifesto-btn:hover {
+	background: #256cb2;
 }
 
 .power_by {
@@ -6195,5 +6202,12 @@ nav .breadcrumb {
 	}
 	.footer-social-icons .social-icons>li {
 		margin: 0 4px 0 0
+	}
+	.menifesto-btn {
+		width: 130px;
+		padding: 0;
+	}
+	.menifesto-btn a{
+		font-size: 12px;
 	}
 }

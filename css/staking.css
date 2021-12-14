@@ -103,16 +103,16 @@
   margin-bottom: 25px;
 }
 .staking-top-section-logo{
-  min-height: 82px;
-  -webkit-animation:spin 4s linear infinite;
+  height: 82px;
+  /* -webkit-animation:spin 4s linear infinite;
   -moz-animation:spin 4s linear infinite;
-  animation:spin 4s linear infinite;
+  animation:spin 4s linear infinite; */
 }
-@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+/* @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } } */
 .staking-top-section-title > .green{
-  color: #009739;
+  color: #51C1C3;
 }
 .staking-top-section-title > .dark-blue{
   color: #003660;
@@ -137,7 +137,7 @@
 
 
 .staking-container{
-  height: 820px;
+  height: auto;
   width: 100%;
   background-image: url(./../images/staking-bg-3.png);
   background-repeat: no-repeat;
@@ -168,7 +168,7 @@
 .staking-statement{
   height: auto;
   width: fit-content;
-  padding: 10px 16px 10px 24px;
+  padding: 10px 16px 10px 0px;
   color: #256CB2;
   font-size: 22px;
   font-family: poppinsSemiBold;
@@ -196,7 +196,7 @@
   padding: 96px 80px 0 110px;
 }
 .plans-container{
-  margin-top: 80px;
+  margin-top: 30px;
   max-width: 1125px;
 }
 .countdown-bg-container{
@@ -496,8 +496,27 @@ a{
   font-family: poppinsSemiBold;
   padding: 0 90px;
 }
-
-
+.claim-button{
+  height: 48px;
+  width: 120px;
+  background: #256CB1;
+  color: white;
+  font-family: poppinsSemiBold;
+  font-size: 16px;
+  outline: none;
+  border: 2px solid white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+  padding: 4px 16px;
+  border-radius: 16px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.claim-button:active{
+  transform: translate(0.95);
+}
+.claim-button:focus{
+  outline: none;
+}
 
 
 
@@ -574,12 +593,15 @@ a{
     padding: 0;
   }
   .plans-container{
-    margin-top: 90px;
+    margin-top: 40px;
     max-width: 1125px;
   }
   .plans-box{
     max-width: 100%;
     margin-top: 54px;
+  }
+  .plans-box:first-child{
+    margin-top: 0;
   }
   .countdown-box{
     height: 48px;
