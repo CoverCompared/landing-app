@@ -784,6 +784,10 @@ ul.top_link li div {
 	text-decoration: none
 }
 
+.nav-dropdown:hover{
+
+}
+
 
 /*nav-end*/
 
@@ -5229,10 +5233,21 @@ nav .breadcrumb {
 	}
 }
 
+@media (max-width: 1200px){
+	.container{
+		max-width: 100% !important;
+	}
+}
 
 /* ================= Desktop/Laptop below 1152px  ================= */
 
 @media only screen and (max-width:1151px) {
+	.navbar-light .navbar-nav>li>a {
+		font-size: 12px;
+	}
+	.container{
+		max-width: 100% !important;
+	}
 	.our-partner-container{
 		grid-template-columns: repeat(4, 1fr);
 	}
@@ -6112,6 +6127,10 @@ nav .breadcrumb {
 			transform: translate3d(0, 0, 0);
 			top: 80px
 		}
+	}
+
+	.ft_link a {
+		padding: 0 7px
 	}
 }
 
